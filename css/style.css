@@ -1,12 +1,17 @@
 /* variabel warna */
 :root{
-
-}
-*{
- 
+    --purple:#2F192E;
+    --purple-light:#30192D;
+    --dark-blue:#012677;
+    --skyblue:#00b4fc;
+    --light-blue:#005bc5;
+    --dark-pink:#f64c57;
+    --dark-magenta:#e21b5a;
+    --light-green:#61e2c2;
+    --light_purple:#d9abff;
 }
 body{
-
+background-color:black;
 }
 .container{
   
@@ -15,18 +20,22 @@ body{
  
 }
 .profile-card .profile-pic{
+   
 }
 .profile-card .profile-pic img{
 }
 .profile-card .profile-details{
 }
 .profile-details .intro{
+   color: white;
+   font-style: unset;
 }
 .profile-details .intro h2{
 }
 .profile-details .intro h4{
 }
 .profile-details .intro .social{
+    color: white;
 }
 .profile-details .intro .social i{
 }
@@ -35,9 +44,11 @@ body{
 }
 
 .profile-card .contact-info{
+    color: white;
 }
 
 .profile-details .contact-info .row{
+    color: white;
 }
 
 .contact-info .row .icon {
@@ -55,6 +66,7 @@ body{
 /* about */
 
 .about {
+    color: white;
 }
 
 .about h1{
@@ -70,6 +82,7 @@ body{
 }
 
 .about .work{
+    color: white;
 }
 
 .work .workbox{
